@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Levantar Pedido </title>
+        <link rel="stylesheet" href="pedidos.css">
+    </head>
+    <body>
+        <h1>Levantar pedido</h1>
+        
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu Nombre Pastelaucher</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+            <br><br>
+            <label for="Direccion">Danos tu Direccion</label><br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="Direccion">
+            <br><br>
+            <label for="Telefono">Danos tu Telefono</label><br>
+            <input type="text" id="Telefono" name="Telefono" placeholder="Telefono">
+            <br><br>
+
+            <p>Recoger entienda o entrega a domicilio</p>
+            <input type="radio" id="Entienda" name="EntiendaoDomicilio" value="Entienda">
+            <label for="Entienda">Entienda</label><br>
+            <input type="radio" id="domicilio" name="EntiendaoDomicilio" value="domicilio">
+            <label for="domicilio">Domicilio</label><br>
+            <br><br>
+
+            <p>De que Pastel va a llevar</p>
+            <input type="checkbox" id="Esponjoso" name="Esponjoso" Value="Esponjoso">
+            <label for="Esponjoso">Esponjoso</label>
+            <input type="number" id="Esponjoso" name="Esponjoso" placeholder="Para cuantas personas"><br>
+            <input type="checkbox" id="Mantequilla" name="Mantequilla" Value="Mantequilla">
+            <label for="Mantequilla">Mantequilla</label>
+            <input type="number" id="Mantequilla" name="Mantequilla" placeholder="Para cuantas personas"><br>
+            <input type="checkbox" id="Merengue" name="Merengue" Value="Merengue">
+            <label for="Merengue">Merengue</label>
+            <input type="number" id="Merengue" name="Merengue" placeholder="Para cuantas personas"><br>
+            <input type="checkbox" id="Aceite" name="Aceite" Value="Aceite">
+            <label for="Aceite">Aceite</label>
+            <input type="number" id="Aceite" name="Aceite" placeholder="Para cuantas personas"><br>
+            <input type="checkbox" id="Fermentado" name="Fermentado" Value="Fermentado">
+            <label for="Fermentado">Fermentado</label>
+            <input type="number" id="Fermentado" name="Fermentado" placeholder="Para cuantas personas"><br>
+            <input type="checkbox" id="Natilla" name="Natilla" Value="Natilla">
+            <label for="Natilla">Natilla</label>
+            <input type="number" id="Natilla" name="Natilla" placeholder="Para cuantas personas"><br>
+            <br><br>
+
+            <p>tipo de decoracion</p>
+            <select name="Decoracion" id="Decoracion">
+                <option value="Cumpleado-normal">Cumpleado-normal</option>
+                <option value="Bautizo">Bautizo</option>
+                <option value="Confirmacion">Confirmacion</option>
+                <option value="Dia-de-niño">Dia-de-niño</option>
+                <option value="Dia-de-Madre">Dia-de-Madre</option>
+                <option value="Dia-del-Padre">Dia-del-Padre</option>
+                <option value="xv-años">xv-años</option>
+                <option value="Despedida-de-soltero">Despedida-de-soltero</option>
+                <option value="Compromiso">Compromiso</option>
+                <option value="Boda">Boda</option>
+            </select>
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+
+
+
+
+
+
+
+        </form>
+    
+
+    </body>
+
+
+
+
+
+</html>
